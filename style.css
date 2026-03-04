@@ -294,12 +294,12 @@ nav {
 
 /* Image Container */
 .hero-image-container {
-    width: 100%;
+    width: 800px;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    max-width: 115vh;
     margin: 0 auto 1.8vh auto;
     animation: fadeIn 2s ease-in;
 }
