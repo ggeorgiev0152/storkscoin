@@ -592,24 +592,25 @@ footer {
 
 @media (max-width: 768px) {
     nav {
-        padding: 1.2vh 3%;
+        padding: 1.2vh 5%;
     }
 
     .logo {
-        font-size: 1.8vh;
+        font-size: 2.4vh;
     }
 
     .nav-links {
-        gap: 0.8vh;
+        gap: 1.2vh;
     }
 
-    .nav-links a {
-        font-size: 1.2vh;
+    /* Hide About & Memes on mobile - only show Buy Now */
+    .nav-links a:not(.nav-btn) {
+        display: none;
     }
 
     .nav-btn {
-        padding: 0.5vh 1vh;
-        font-size: 1vh !important;
+        padding: 0.8vh 1.8vh;
+        font-size: 1.4vh !important;
         white-space: nowrap;
     }
 
