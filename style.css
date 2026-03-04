@@ -759,8 +759,7 @@ footer {
 
     .about-video-container {
         width: 100%;
-        height: auto;
-        aspect-ratio: 16 / 9;
+        height: 45vh;
         margin-top: 2vh;
     }
 
