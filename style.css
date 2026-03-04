@@ -331,6 +331,7 @@ nav {
     position: relative;
     max-width: 1400px;
     margin: 0 auto;
+    scroll-margin-top: 12vh;
 }
 
 .about-flex-container {
