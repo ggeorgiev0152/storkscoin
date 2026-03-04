@@ -294,7 +294,7 @@ nav {
 
 /* Image Container */
 .hero-image-container {
-    width: 800px;
+    width: 90vh;
     max-width: 100%;
     display: flex;
     justify-content: center;
