@@ -305,9 +305,8 @@ nav {
 }
 
 .hero-image {
-    height: 50vh;
-    width: auto;
-    max-width: 100%;
+    width: 100%;
+    height: auto;
     position: relative;
     z-index: 2;
     animation: float 6s ease-in-out infinite;
